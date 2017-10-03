@@ -35,9 +35,9 @@
             ： 从标准输入读入一个字符；
             ： 返回类型是int是为了返回EOF(-1);UNIT的EOF是ctrl+D;
 
-5 函数strlen:
+5 字符串函数:
     ：头文集string.h,包含：strlen, strcmp, strcpy, strcat, strchr, strstr;
-    
+    ：
     
     
     
