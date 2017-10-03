@@ -171,6 +171,12 @@
                                 ：需要用函数修改不止一个变量；
                         ：动态申请内存；
                14> 动态内存分配：
+                        ：malloc, 包含在头文件stdlib.h中；（C99之前使用malloc动态分配内存，该动态是指程序运行时才确定分配的大小）；
+                        ：void* malloc(size_t size);
+                        ：例如：int*a;
+                              a=(int*)malloc(number*sizeof(int));注意，malloc默认返回void类型，所以需要强制转换以下；
+                        ：malloc动态分配后，使用完毕，需要使用free(a)释放申请的内存，参数a必须为首地址；      
+                        ：如果申请失败，返回0或NULL；
                
                         
                 
