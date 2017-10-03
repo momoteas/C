@@ -60,6 +60,9 @@
        ：赋值：struct data today={07,31,2014};
             ：struct data today={month=7, year=2014};
        ：结构成员类型可以不同；     
+       ：结构运算：
+    2）：结构与函数  
+       
     
     
     
